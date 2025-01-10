@@ -1,19 +1,27 @@
-# Finance manager
+# Finance Manager
 
-# Setup Instructions
+## Setup Instructions
 
 1. **Create and activate a virtual environment**:
+   ```sh
    python -m venv .venv
    source .venv/bin/activate
+   ```
 
-2. **Install required librabries from requirements.txt:**:
+2. **Install required libraries from `requirements.txt`**:
+   ```sh
    pip install -r requirements.txt
+   ```
 
-2. **Set environment variables**:
-   Create a .env file in the root directory with the following content
+3. **Set environment variables**:
+   Create a `.env` file in the root directory with the following content:
+   ```env
    SECRET_KEY=your_secret_key_here
+   ```
 
-2. **Run the application**:
+4. **Run the application**:
+   ```sh
    flask run
-   OR
+   # OR
    python app.py
+   ```
