@@ -1,4 +1,5 @@
 # Finance Manager
+## Web application "Family finance manager"  for my EBC-VWA - Web Applications Development course.
 
 ## Setup Instructions
 
