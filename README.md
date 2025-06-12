@@ -1,28 +1,13 @@
-# Family finance manager
-## Web application "Family finance manager"  for my EBC-VWA - Web Applications Development course.
+# Finance manager (Python + Flask)
+Developed as part of the EBC-VWA - Web Applications Development course.
 
-## Setup Instructions
+This web application allows you to manage family members' income and expenses, 
+categorized by type. It supports adding users with different roles (e.g., parent, child) and tracking financial activity per person.
 
-1. **Create and activate a virtual environment**:
-   ```sh
-   python -m venv .venv
-   source .venv/bin/activate
-   ```
-
-2. **Install required libraries from `requirements.txt`**:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Set environment variables**:
-   Create a `.env` file in the root directory with the following content:
-   ```env
-   SECRET_KEY=your_secret_key_here
-   ```
-
-4. **Run the application**:
-   ```sh
-   flask run
-   # OR
-   python app.py
-   ```
+## What I Learned
+- Built and organized a RESTful HTTP API using Flask
+- Designed a relational data model to represent users, roles, and transactions
+- Used Jinja2 templating for dynamic HTML rendering
+- Handled user input and form validation securely
+- Implemented session-based authentication and user role management
+- Practiced code modularization and MVC-style architecture
